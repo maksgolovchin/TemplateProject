@@ -1,0 +1,9 @@
+remoteWebDriverUrl=http://localhost:4444/wd/hub
+url=https://testproject.com
+browserName=chrome
+environment=local
+downloadsFolder=target/
+browser_width=1440
+browser_height=1024
+environment=QA
+accessibility=true

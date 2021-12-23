@@ -1,0 +1,25 @@
+[
+  {
+    "brandName": "AutoBrand1",
+    "firstName": "Auto",
+    "lastName": "Brand",
+    "workEmail": "qa-automation+existingBrand@corahome.com",
+    "workTitle": "AutoBrandWorkTitle",
+    "webSite": "https://www.corahomeautobrand.com",
+    "phoneCountry": "United States",
+    "phoneNumber": 8144221211,
+    "brandInstagram": "https://www.instagram.com/corahome",
+    "tradeType": "Trade-Only",
+    "federalNumber": 231142444,
+    "zipCode": "10038",
+    "address": "Default Address",
+    "city": "New York",
+    "state": "Vermont",
+    "parentCompany": [
+      {
+        "parentCompanyName": "ParentAutoBrand1",
+        "parentComanyEmail": "qa-automation+existingBrand@corahome.com"
+      }
+    ]
+  }
+]
