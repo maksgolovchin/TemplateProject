@@ -26,7 +26,7 @@ public class VendorClientsTests extends BaseTest {
         MultipleStepSoftAssertion softAssertionInstance = new MultipleStepSoftAssertion();
 
         openLoginPage(props.url())
-                .login(enabledBrand.getWorkEmail(), creds.password()) //TODO replace with vendor brand accounts with trade applications
+                .login(enabledBrand.getWorkEmail(), creds.password())
                 .openClients()
                 .shouldSeeClientsSortedByDateSoft(softAssertionInstance, true)
                 .selectSorting("Date Added: Old to New")

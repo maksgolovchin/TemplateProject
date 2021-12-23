@@ -8,14 +8,6 @@ import io.qameta.atlas.webdriver.extension.Param;
 
 public interface InventoryAndReturnsPage extends BasePage, Tabs {
 
-    @FindBy("//div[text()='Made-to-Order']")
-        //TODO NEED NORMAL LOCATOR
-    HtmlElement madeToOrderRadio();
-
-    @FindBy("//div[text()='Stocked']")
-        //TODO NEED NORMAL LOCATOR
-    HtmlElement stockedRadio();
-
     @FindBy("//button[./span[text()='Discard Changes']]")
     HtmlElement discardChanges();
 
